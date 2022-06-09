@@ -1,0 +1,79 @@
+/* #0E1D3C
+#edf0f1
+#0088a9 */
+
+.ticket {
+    margin: 30px 50px 0 30px;
+    padding: 0 0 0 230px;
+    background-color: #edf0f1;
+    background-image: url(../img/ticket.png);
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    background-size: 80% 80%;
+    height: 560px;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.car-lapangan .card-img-top {
+    width: 350px;
+    margin: 150px;
+}
+ .card {
+     border: none;
+     margin-top: -60px;
+     margin-left: -20px;
+     background-color: transparent;
+     color: #edf0f1;
+ }
+
+ .div-lapangan p {
+    margin: 3px;
+ }
+
+ .tombolbtn{ 
+     border: 5px;
+     border-color: white;  
+     color: green;
+    
+ }
+
+ .content-table {
+    border-collapse: collapse;
+    margin: 25px 80px 0 25px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead {
+    margin: 0 auto;
+    width: 900px;
+}
+.content-table thead tr {
+    background-color: #3694CE;
+    color: #edf0f1;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.content-table th, .content-table td {
+    width: 200px;
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #3694CE;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3694CE;
+}
+

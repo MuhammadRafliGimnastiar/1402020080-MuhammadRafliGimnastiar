@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #edf0f1;
+    /* background: url(../img/bg-1.png);
+    background-repeat: no-repeat; */
+}
+.BgImg{
+	width: 400px;
+    height: 400px;
+    position: fixed;
+    left:0;
+	top: 0;
+	bottom: 28%;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+.textUsername {
+    color: red;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 6%;
+
+    transition: all 0.3s;
+}
+
+header:hover {
+    height: 80px;
+    box-shadow: -5px 5px 10px #0E1D3C;
+}
+
+.logo {
+    position: fixed;
+    cursor: pointer;
+    height: 70px;
+    margin-right: auto;
+    left: 20px;
+    top: 10px;
+}
+
+header .link-nav {
+    display: inline-block;
+    position: fixed;
+    right: 20px;
+    top: 35px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_linkss li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    color: #edf0f1;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.boxNama {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+    position: absolute;
+    left: 30px;
+    top: 135px;
+    float: right;
+    width: 200px;
+    height: 100px;
+
+    
+   
+}
+
+.unem {
+    left: 300px;
+
+
+}
+.boxNama.h1 {
+    color: green;
+
+}
+.sosmed {
+    padding-top: 15px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    float: right;
+    width: 50px;
+    height: 240px;
+    background-color: #0E1D3C;
+    border-radius: 14px 0 0 14px;
+    box-shadow: -5px 5px 10px #0E1D3C;
+}
+
+.sosmed ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sosmed ul li {
+    background-color: #0E1D3C;
+    padding-bottom: 10px;
+}
+
+.sosmed img {
+    width: 30px;
+    background-color: #0E1D3C;
+    transition: 0.3s;
+    
+}
+
+.sosmed a {
+    text-decoration: none;
+    
+}
+
+.sosmed img:hover {
+    width: 35px;
+}
+
+.icon-sport {
+    margin-top: 60px;
+    padding-left: 170px;
+}
+
+.sport1, .sport2 {
+    align-items: center;
+    text-align: center;
+}
+
+.icon-sport li {
+    display: inline-block;
+}
+
+.icon-sport img {
+    width: 270px;
+}
+
+.bg {
+    position: fixed;
+    bottom: 0;
+    z-index: -5;
+}
+
+.bg img {
+    width: 400px;
+}
+
+
+.inputan {
+    position: absolute;
+    left: 2%;
+    top: 55%;
+    padding-right: 20px;
+    
+    display: inline-block;
+    height: 24px;
+    border-radius: 10px;
+    
+}
+
+.inputan2 {
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    padding-right: 20px;
+    
+    display: inline-block;
+    height: 24px;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font: 16px/28px Roboto;
+    background-color: #edf0f1;
+}
+
+.header {
+    width: 800px;
+    height: 40px;
+    background-color: #0E1D3C;
+    margin: 0 auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: #edf0f1;
+    position: relative;
+    box-shadow: -5px 5px 10px #0E1D3C;
+}
+
+.header .close {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #0E1D3C;
+    right: 2px;
+    top: -2px;
+    margin-right: 20px;
+}
+
+.sosmed {
+    padding-top: 15px;
+    position: relative;
+    top: 140px;
+    float: right;
+    width: 50px;
+    height: 240px;
+    background-color: #0E1D3C;
+    border-radius: 14px 0 0 14px;
+    box-shadow: -5px 5px 10px #0E1D3C;
+}
+
+.sosmed ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sosmed ul li {
+    background-color: #0E1D3C;
+    padding-bottom: 10px;
+}
+
+.sosmed img {
+    width: 30px;
+    background-color: #0E1D3C;
+    transition: 0.3s;
+    
+}
+
+.sosmed a {
+    text-decoration: none;
+    
+}
+
+.sosmed img:hover {
+    width: 35px;
+}
+
+.lapangab {
+    width: 800px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lapangab .logo {
+    width: 400px;
+}
+.lapangab .nama-logo {
+    margin-top: -55px;
+    font: 60px roboto extrabold;
+}
+
+.lapangab ul li{
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button button {
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.login {
+    border: none;
+    background-color: #3694CE;
+    color: #edf0f1;
+}
+
+.sign-up {
+    border: 1px bold;
+    border-color: #3694CE;
+    background-color: #edf0f1;
+    color: #3694CE;
+}
+
+
+
+.Copyright {
+    background-color: #3694CE;
+    width: auto;
+    height: 120px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 100px;
+    color: #edf0f1;
+    margin-bottom: 50px;
+    /* font:  roboto bold; */
+}
+
+.browser-bar .stem {
+    float: left;
+    width: 10px;
+    height: 130px;
+    background-color: #0E1D3C;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.browser-bar .browse-title {
+    margin-left: 40px;
+    font: 50px roboto extrabold;
+}
+
+.browser-bar .location {
+    margin-top: 3px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    background-color: #0E1D3C;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    color: #edf0f1;
+    margin-bottom: 80px;
+}
+
+.browser-bar {
+    float: left;
+}
+.browser-bar .information-bar {
+    background-color: #0E1D3C;
+    width: 260px;
+    height: 160px;
+    border-radius: 0 15px 15px 0;
+    padding: 40px;
+    color: #edf0f1;
+}
+
+.information-bar .inputan {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    height: 24px;
+    border-radius: 10px;
+    
+}
+
+.field-list {
+    margin-bottom: 100px;
+    margin-top: 250px;
+    height: 230px;
+    overflow: hidden;
+}
+.field-list img {
+    width: 290px;
+}
+
+.field-list ul li {
+    display: inline;
+}
+
+.footer {
+    text-align: center;
+}
+.credit-title {
+    margin-bottom: 50px;
+    color: #0E1D3C;
+    font: 50px roboto extrabold;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0px -40px;
+}
+.footer img {
+    width: 300px;
+}

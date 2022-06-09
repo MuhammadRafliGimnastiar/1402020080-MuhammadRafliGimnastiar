@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #edf0f1;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 6%;
+    background-color: #edf0f1;
+    background: #edf0f1;
+    transition: all 0.3s;
+}
+
+header:hover {
+    height: 80px;
+    box-shadow: -5px 5px 10px #0E1D3C;
+}
+
+.logo {
+    /* position: fixed; */
+    cursor: pointer;
+    height: 60px;
+    margin-right: auto;
+    /* left: 20px;
+    top: 10px; */
+}
+
+header .link-nav {
+    margin-top: 25px;
+    display: inline-block;
+    /* position: fixed; */
+    /* right: 20px;
+    top: 35px; */
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_linkss li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    color: #edf0f1;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+.sosmed {
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    float: right;
+    width: 50px;
+    height: 240px;
+    background-color: #0E1D3C;
+    border-radius: 14px 0 0 14px;
+    box-shadow: -5px 5px 10px #0E1D3C;
+}
+
+.sosmed ul {
+    list-style: none;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sosmed ul li {
+    background-color: #0E1D3C;
+    padding-bottom: 10px;
+}
+
+.sosmed img {
+    /* margin-right: 20px; */
+    width: 30px;
+    background-color: #0E1D3C;
+    transition: 0.3s;
+    
+}
+
+.sosmed a {
+    text-decoration: none;
+    
+}
+
+.sosmed img:hover {
+    width: 35px;
+}

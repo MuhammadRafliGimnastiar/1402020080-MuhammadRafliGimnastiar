@@ -1,0 +1,165 @@
+body {
+    margin: 0 0;
+    font: 16px/28px Roboto;
+    background-color: #3694CE;
+}
+
+.container {
+    position: relative;
+    margin: 70px auto 0px;
+    width: 800px;
+    height: 500px;
+    background-color: #edf0f1;
+    border-radius: 8px;
+}
+
+.container .logo-page {
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    background-color: #0E1D3C;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 700px;
+}
+
+.container .logo-page img{
+    width: 250px;
+}
+
+.container .nav-link {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 100px;
+}
+
+.container .nav-link li {
+    display: inline-block;
+}
+
+.nav-link .link {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.nav-link button {
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-link .button {
+    font-size: 18px;
+    color: #0E1D3C;
+    transition: all 0.3s;
+}
+
+.nav-link .button:hover {
+    color: #3694CE;
+}
+
+.nav-link .button:focus {
+    color: #3694CE;
+}
+
+.nav-link .login-register {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+
+.login-register button {
+    color: #0E1D3C;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #edf0f1;
+    height: 30px;
+    font-size: 20px;
+    color: #0E1D3C;
+    transition: all 0.3s;
+}
+
+.login-register button:focus {
+    background-color: #0E1D3C;
+    color: #edf0f1;
+}
+
+.form {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 400px;
+}
+
+.form-input {
+    margin: 40px;
+}
+
+.form-input input {
+    background-color: #edf0f1;
+}
+
+/* .form-input #login {
+    
+} */
+
+input[type="text"],
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 120px;
+	height: 32px;
+	background: #0d6cd2;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2s ease;
+	cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+	background: #3d88ff;
+	transition: 0.2s ease;
+}
+
+.form button {
+    cursor: pointer;
+    display: block;
+    width: 200xp;
+    height: 30px;
+    background-color: #3694CE;
+    color: #edf0f1;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+    margin: 40px 60px;
+    transition: all 0.3s;
+}
+
+.form button:hover {
+    background-color: #0E1D3C;
+}

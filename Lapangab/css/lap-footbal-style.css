@@ -1,0 +1,30 @@
+
+.bg {
+    position: fixed;
+    bottom: 0;
+    z-index: -5;
+}
+
+.bg img {
+    width: 500px;
+}
+
+.container {
+    margin-top: 40px;
+    margin-left: 180px;
+    /* margin-right: 20px; */
+}
+
+.container .card-lapangan {
+    background-color: transparent;
+}
+
+.btn-primary {
+    border-radius: 9px;
+    background-color: #0088a9;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0E1D3C;
+}
